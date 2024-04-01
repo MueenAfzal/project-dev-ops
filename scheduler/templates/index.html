@@ -1,0 +1,201 @@
+  {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <title>Employee Scheduler</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+<link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
+<!-- Font CSS -->
+<link href="{% static 'assets/css/boxicon.min.css' %}" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<!-- Load Template CSS -->
+<link rel="stylesheet" href="{% static 'assets/css/templatemo.css' %}">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{% static 'assets/css/custom.css' %}">
+
+
+</head>
+
+<body>
+  
+    {% include 'header.html' %}
+ 
+    <!-- Start Banner Hero -->
+    <div class="banner-wrapper bg-light">
+        <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+
+            <!-- Start slider -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+           
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    Manage <strong>Employee Schedules</strong>
+                                    <br>Efficiently
+                                </h1>
+                                <p class="banner-body text-muted py-3 mx-0 px-0">
+                                    Our employee scheduling tool simplifies the process of managing shifts, assigning tasks, and tracking attendance. With intuitive features and user-friendly interface, streamline your workforce management effortlessly.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    Simplify <strong>Scheduling</strong> Tasks
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Our employee scheduler helps you create, manage, and update schedules effortlessly. With drag-and-drop functionality and real-time updates, stay organized and efficient in managing your workforce.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    Optimize <strong>Workforce Management</strong>
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Our employee scheduler empowers you to optimize workforce management, reduce scheduling conflicts, and improve employee satisfaction. Enhance productivity and efficiency with our intuitive scheduling solution.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    HTML CSS Template with Bootstrap 5 Beta 1
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    You are not allowed to re-distribute this Purple Buzz HTML template as a downloadable ZIP file on any kind of Free CSS collection websites. This is strongly prohibited. Please contact TemplateMo for more information.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    Cupidatat non proident, sunt in culpa qui officia
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <i class='bx bx-chevron-left'></i>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <i class='bx bx-chevron-right'></i>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+            <!-- End slider -->
+
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Recent Work -->
+    <section class="py-5 mb-5">
+        <div class="container">
+            <div class="recent-work-header row text-center pb-5">
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Recent Works</h2>
+            </div>
+            <div class="row gy-5 g-lg-5 mb-4">
+           <!-- Iterate over the employee scheduler queryset and display the details -->
+           {% for employee in employees %}
+           <div class="col-md-4 mb-3">
+               <div class="card border-0 shadow-lg overflow-hidden">
+                   <!-- Assuming you have an image field in your EmployeeScheduler model -->
+                   <img class="card-img-top" src="{{ employee.image.url }}" alt="Employee Image">
+                   <div class="card-body">
+                       <h5 class="card-title">{{ employee.name }}</h5>
+                       <p class="card-text">Position: {{ employee.position }}</p>
+                       <p class="card-text">Department: {{ employee.department }}</p>
+                       <!-- Add more fields as needed -->
+                   </div>
+               </div>
+           </div>
+           {% endfor %}
+
+             
+            </div>
+        </div>
+
+    </section>
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'signup' %}">Signup</a>
+    <!-- End Recent Work -->
+    {% include 'footer.html' %}
+
+
+  
+
+
+    <!-- Bootstrap -->
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<!-- Load jQuery required for isotope -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<!-- Isotope -->
+<script src="{% static 'js/isotope.pkgd.js' %}"></script>
+<!-- Page Script -->
+<script>
+    $(window).on('load', function() {
+        // Initialize Isotope
+        var $projects = $('.projects').isotope({
+            itemSelector: '.project',
+            layoutMode: 'fitRows'
+        });
+
+        $(".filter-btn").click(function() {
+            var data_filter = $(this).attr("data-filter");
+            $projects.isotope({
+                filter: data_filter
+            });
+            $(".filter-btn").removeClass("active shadow");
+            $(this).addClass("active shadow");
+            return false;
+        });
+    });
+</script>
+<!-- Templatemo -->
+<script src="{% static 'js/templatemo.js' %}"></script>
+<!-- Custom -->
+<script src="{% static 'js/custom.js' %}"></script>
+
+
+</body>
+
+</html>
